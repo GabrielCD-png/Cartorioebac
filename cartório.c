@@ -128,7 +128,7 @@ int main()
 		
 	if(comparacao == 0)
 	{
-	
+		system ("cls");
     	for(x=1;x=1;)
 		{
 		
@@ -164,7 +164,7 @@ int main()
       		
       			case 4:
       			printf("\t\n Obrigado por utilizar o sistema!\n");//chamada de função
-            	return 0; // Encerra o programa
+            	return 0; //Encerra o programa
       		
       			default:printf("\tOpção não disponivel\n");
 				system("pause");
@@ -176,4 +176,5 @@ int main()
 	
 	else
 		 printf("senha incorreta!");
+
 }
